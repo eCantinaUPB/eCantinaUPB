@@ -1,0 +1,6 @@
+pydantic
+gradio
+numpy
+pillow
+opencv-python
+pyyaml

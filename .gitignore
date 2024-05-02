@@ -1,0 +1,11 @@
+venv/
+data/
+build/
+dist/
+models/
+**/__pycache__/
+options.yml
+*.swp
+*.bin
+*.run
+*.exe
