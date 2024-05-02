@@ -1,4 +1,6 @@
 # eCantinaUPB
+## Soft pentru reducerea timpului de așteptare la servirea mesei în cantinele studențești
+## Software for reducing waiting times at student canteens
 
 Acest repozitoriu contine codul sursa al aplicatiei web eCantinaUPB.
 
