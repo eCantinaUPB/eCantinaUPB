@@ -13,7 +13,7 @@ def ensure_dirs():
     Path(opts["storage_model_path"]).mkdir(parents=True, exist_ok=True)
 
 
-def fetch_image(url: str) -> Image:
+def fetch_image(url: str):
     try:
         response = requests.get(url)
     except Exception as e:
@@ -65,7 +65,7 @@ def get_lookup_paths() -> list:
 
 def get_model_paths() -> list:
     return [
-        file
+        str(file)
         for dir_path in get_lookup_paths()
         for file in Path(dir_path).glob("**/*.npz")
     ]

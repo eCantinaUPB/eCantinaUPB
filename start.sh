@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PYTHON_EXECUTABLE="python3.11"
+PYTHON_EXECUTABLE="python3"
 VENV_DIR="venv"
 
 if [[ ! -d $VENV_DIR ]]; then
